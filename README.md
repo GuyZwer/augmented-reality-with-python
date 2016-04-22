@@ -16,12 +16,29 @@ Thie is the AR project.
 	https://www.jetbrains.com/pycharm/
 	In this project I will mention the errors that popup during the installation.
 	
-	Im useing Fedora 19 (32-bit).
+	Im useing Fedora 19 (32-bit) on vmware
 	I'm useing the documentation from the following:
 	http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_fedora/py_setup_in_fedora.html#install-opencv-python-in-fedora
 	
-	At the section "Configuring and Installing" I have the problem with make the files and prepare them to installation
+	At the section "Configuring and Installing" I have the problem with make the files 
+	and prepare them to installation
 	My errors are as follow:
+		/lib/libavcodec.so.54: undefined reference to `vpx_codec_vp9_dx_algo'
+		/lib/libgbm.so.1: undefined reference to `wayland_buffer_is_drm'
+		/lib/libavcodec.so.54: undefined reference to `vpx_codec_vp9_cx_algo'
+		collect2: error: ld returned 1 exit status
+		make[2]: *** [bin/opencv_perf_core] Error 1
+		make[1]: *** [modules/core/CMakeFiles/opencv_perf_core.dir/all] Error 2
+		make: *** [all] Error 2
+		
+	I codnt find on the net the reason for this issue, I just know that thos problem is somting with 
+	libavcodec.so.54 file it dosnt contin the the value 'vpx_codec_vp9_dx_algo', so I deside to carry on.
+	on the ~/.bashtc I added the path as follow:
+	export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/site-packages
+	
+		
+		
+
 	
 	
 	
