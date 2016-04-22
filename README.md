@@ -14,4 +14,6 @@ Thie is the AR project.
 	http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html
 	https://www.enthought.com/products/canopy/
 	https://www.jetbrains.com/pycharm/
+	
+	Im useing Fedora 19 (32-bit).
 		
