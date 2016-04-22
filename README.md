@@ -35,7 +35,11 @@ Thie is the AR project.
 	libavcodec.so.54 file it dosnt contin the the value 'vpx_codec_vp9_dx_algo', so I deside to carry on.
 	on the ~/.bashtc I added the path as follow:
 	export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/site-packages
+	I log out and come back again and that I accomplish the yum update command.
+	after that I 'make' again and I have no error and it finish successfully
 	
+	Now connect to python and type import cv2, and HOLLA! it works!!!
+		
 		
 		
 
