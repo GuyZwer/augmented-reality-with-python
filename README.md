@@ -38,7 +38,7 @@ Thie is the AR project.
 	I log out and come back again and that I accomplish the yum update command.
 	after that I 'make' again and I have no error and it finish successfully
 	
-	Now connect to python and type import cv2, and HOLLA! it works!!!
+	Now open python and type import cv2, and HOLLA! it works!!!
 		
 		
 		
