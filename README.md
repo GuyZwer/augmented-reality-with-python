@@ -2,7 +2,7 @@ Thie is the AR project.
 	
 	in this project Im going to use OpenCV to program an AR in Python
 	at first I thought to use Pygame, but I read on the net about it, and it
-	doesnt look that it fit my need for this project and I was reading about
+	doesnt look that it fit my needs for this project and I was reading about
 	AR that work great with Java, but since I dont know to program in Java,
 	I decided to use my knowledge in Python and use OpenCV
 
