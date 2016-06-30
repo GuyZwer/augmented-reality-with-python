@@ -1,4 +1,5 @@
 Thie is the AR project.
+-----------------------
 	
 	in this project Im going to use OpenCV to program an AR in Python
 	at first I thought to use Pygame, but I read on the net about it, and it
